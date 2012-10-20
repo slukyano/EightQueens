@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7439D3163319A500E63B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7439D2163319A500E63B04 /* Foundation.framework */; };
+		CE7439D6163319A500E63B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7439D5163319A500E63B04 /* main.m */; };
+		CE7439DA163319A500E63B04 /* EightQueens.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE7439D9163319A500E63B04 /* EightQueens.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE7439CC163319A500E63B04 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CE7439DA163319A500E63B04 /* EightQueens.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE7439CE163319A500E63B04 /* EightQueens */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EightQueens; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7439D2163319A500E63B04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE7439D5163319A500E63B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE7439D8163319A500E63B04 /* EightQueens-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EightQueens-Prefix.pch"; sourceTree = "<group>"; };
+		CE7439D9163319A500E63B04 /* EightQueens.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EightQueens.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7439CB163319A500E63B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7439D3163319A500E63B04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7439C3163319A500E63B04 = {
+			isa = PBXGroup;
+			children = (
+				CE7439D4163319A500E63B04 /* EightQueens */,
+				CE7439D1163319A500E63B04 /* Frameworks */,
+				CE7439CF163319A500E63B04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7439CF163319A500E63B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7439CE163319A500E63B04 /* EightQueens */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7439D1163319A500E63B04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7439D2163319A500E63B04 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7439D4163319A500E63B04 /* EightQueens */ = {
+			isa = PBXGroup;
+			children = (
+				CE7439D5163319A500E63B04 /* main.m */,
+				CE7439D9163319A500E63B04 /* EightQueens.1 */,
+				CE7439D7163319A500E63B04 /* Supporting Files */,
+			);
+			path = EightQueens;
+			sourceTree = "<group>";
+		};
+		CE7439D7163319A500E63B04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE7439D8163319A500E63B04 /* EightQueens-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7439CD163319A500E63B04 /* EightQueens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7439DD163319A500E63B04 /* Build configuration list for PBXNativeTarget "EightQueens" */;
+			buildPhases = (
+				CE7439CA163319A500E63B04 /* Sources */,
+				CE7439CB163319A500E63B04 /* Frameworks */,
+				CE7439CC163319A500E63B04 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EightQueens;
+			productName = EightQueens;
+			productReference = CE7439CE163319A500E63B04 /* EightQueens */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7439C5163319A500E63B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = LSA;
+			};
+			buildConfigurationList = CE7439C8163319A500E63B04 /* Build configuration list for PBXProject "EightQueens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE7439C3163319A500E63B04;
+			productRefGroup = CE7439CF163319A500E63B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7439CD163319A500E63B04 /* EightQueens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7439CA163319A500E63B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7439D6163319A500E63B04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE7439DB163319A500E63B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE7439DC163319A500E63B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE7439DE163319A500E63B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EightQueens/EightQueens-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE7439DF163319A500E63B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EightQueens/EightQueens-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7439C8163319A500E63B04 /* Build configuration list for PBXProject "EightQueens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7439DB163319A500E63B04 /* Debug */,
+				CE7439DC163319A500E63B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7439DD163319A500E63B04 /* Build configuration list for PBXNativeTarget "EightQueens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7439DE163319A500E63B04 /* Debug */,
+				CE7439DF163319A500E63B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7439C5163319A500E63B04 /* Project object */;
+}
