@@ -31,7 +31,7 @@
 		CE7439CE163319A500E63B04 /* EightQueens */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EightQueens; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7439D2163319A500E63B04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE7439D8163319A500E63B04 /* EightQueens-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EightQueens-Prefix.pch"; sourceTree = "<group>"; };
-		CE7439D9163319A500E63B04 /* EightQueens.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EightQueens.1; sourceTree = "<group>"; };
+		CE7439D9163319A500E63B04 /* EightQueens.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = EightQueens.1; path = EightQueens/EightQueens.1; sourceTree = "<group>"; };
 		CE7439EE16331B7200E63B04 /* ChessboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessboardCell.h; sourceTree = "<group>"; };
 		CE7439EF16331B7200E63B04 /* ChessboardClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessboardClass.h; sourceTree = "<group>"; };
 		CE7439F116331B7A00E63B04 /* ChessboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessboardCell.m; sourceTree = "<group>"; };
@@ -55,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7439D4163319A500E63B04 /* EightQueens */,
+				CE7439D9163319A500E63B04 /* EightQueens.1 */,
 				CE7439D1163319A500E63B04 /* Frameworks */,
 				CE7439CF163319A500E63B04 /* Products */,
 			);
@@ -81,7 +82,6 @@
 			children = (
 				CE7439F016331B7A00E63B04 /* sources */,
 				CE7439ED16331B7200E63B04 /* headers */,
-				CE7439D9163319A500E63B04 /* EightQueens.1 */,
 				CE7439D7163319A500E63B04 /* Supporting Files */,
 			);
 			path = EightQueens;
