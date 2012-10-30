@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CE7439D3163319A500E63B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7439D2163319A500E63B04 /* Foundation.framework */; };
-		CE7439D6163319A500E63B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7439D5163319A500E63B04 /* main.m */; };
 		CE7439DA163319A500E63B04 /* EightQueens.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE7439D9163319A500E63B04 /* EightQueens.1 */; };
+		CE7439F416331B7A00E63B04 /* ChessboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7439F116331B7A00E63B04 /* ChessboardCell.m */; };
+		CE7439F516331B7A00E63B04 /* ChessboardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7439F216331B7A00E63B04 /* ChessboardClass.m */; };
+		CE7439F616331B7A00E63B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7439F316331B7A00E63B04 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +30,13 @@
 /* Begin PBXFileReference section */
 		CE7439CE163319A500E63B04 /* EightQueens */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EightQueens; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7439D2163319A500E63B04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CE7439D5163319A500E63B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE7439D8163319A500E63B04 /* EightQueens-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EightQueens-Prefix.pch"; sourceTree = "<group>"; };
 		CE7439D9163319A500E63B04 /* EightQueens.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EightQueens.1; sourceTree = "<group>"; };
+		CE7439EE16331B7200E63B04 /* ChessboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessboardCell.h; sourceTree = "<group>"; };
+		CE7439EF16331B7200E63B04 /* ChessboardClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessboardClass.h; sourceTree = "<group>"; };
+		CE7439F116331B7A00E63B04 /* ChessboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessboardCell.m; sourceTree = "<group>"; };
+		CE7439F216331B7A00E63B04 /* ChessboardClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessboardClass.m; sourceTree = "<group>"; };
+		CE7439F316331B7A00E63B04 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +79,8 @@
 		CE7439D4163319A500E63B04 /* EightQueens */ = {
 			isa = PBXGroup;
 			children = (
-				CE7439D5163319A500E63B04 /* main.m */,
+				CE7439F016331B7A00E63B04 /* sources */,
+				CE7439ED16331B7200E63B04 /* headers */,
 				CE7439D9163319A500E63B04 /* EightQueens.1 */,
 				CE7439D7163319A500E63B04 /* Supporting Files */,
 			);
@@ -86,6 +93,25 @@
 				CE7439D8163319A500E63B04 /* EightQueens-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE7439ED16331B7200E63B04 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				CE7439EE16331B7200E63B04 /* ChessboardCell.h */,
+				CE7439EF16331B7200E63B04 /* ChessboardClass.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		CE7439F016331B7A00E63B04 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE7439F116331B7A00E63B04 /* ChessboardCell.m */,
+				CE7439F216331B7A00E63B04 /* ChessboardClass.m */,
+				CE7439F316331B7A00E63B04 /* main.m */,
+			);
+			path = sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7439D6163319A500E63B04 /* main.m in Sources */,
+				CE7439F416331B7A00E63B04 /* ChessboardCell.m in Sources */,
+				CE7439F516331B7A00E63B04 /* ChessboardClass.m in Sources */,
+				CE7439F616331B7A00E63B04 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +262,7 @@
 				CE7439DF163319A500E63B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
